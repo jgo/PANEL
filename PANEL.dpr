@@ -1,0 +1,19 @@
+program PANEL;
+
+uses
+  ExceptionLog,
+  Forms,
+  untLogin in 'untLogin.pas' {frmLogin},
+  md5 in 'md5.pas',
+  untMain in 'untMain.pas' {frmMain},
+  untChangePass in 'untChangePass.pas' {frmChangePass};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmLogin, frmLogin);
+  Application.CreateForm(TfrmMain, frmMain);
+  Application.CreateForm(TfrmChangePass, frmChangePass);
+  Application.Run;
+end.

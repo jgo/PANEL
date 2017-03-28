@@ -1,0 +1,59 @@
+Application...
+  Start Date      : 10/07/2014 05:53:27
+  Name/Description: PANEL.exe
+  Version Number  : 
+
+Exception...
+  Date   : 10/07/2014 05:56:19
+  Address: 004A8096
+  Module : PANEL.exe
+  Type   : EADSDatabaseError
+  Message: Error 6420:  The 'discovery' process for the Advantage Database Server failed. Unable to connect to the Advantage Database Server.  axServerConnect
+
+Active Controls...
+  Form Class   : TAppBuilder
+  Form Text    : Delphi 7 - PANEL [Running]
+  Control Class: 
+  Control Text : 
+
+Computer...
+  Name        : CEB-DT5178
+  Total Memory: 4096 Mb
+  Free Memory : 4096 Mb
+  Total Disk  : 465.76 Gb
+  Free Disk   : 293.34 Gb
+
+Operating System...
+  Type    : 
+  Build # : 7601
+  Language: English (United States)
+
+-----------------------------------------------------------------------------------
+|Address |Module      |Unit        |Class         |Procedure/Method          |Line|
+-----------------------------------------------------------------------------------
+|004A8096|PANEL.exe   |adsdata.pas |              |RaiseError                |1545|
+|76F6B56F|GDI32.dll   |            |              |GetTextExtentExPointWPri  |    |
+|76F6B56F|GDI32.dll   |            |              |GetTextExtentExPointWPri  |    |
+|75955CE0|USP10.dll   |            |              |ScriptPlace               |    |
+|75957420|USP10.dll   |            |              |ScriptCacheGetHeight      |    |
+|12180EB9|ACE32.DLL   |            |              |AdsConnect60              |    |
+|004A8024|PANEL.exe   |adsdata.pas |              |RaiseError                |1540|
+|004A80E1|PANEL.exe   |adsdata.pas |              |ACECheck                  |1556|
+|004A80C0|PANEL.exe   |adsdata.pas |              |ACECheck                  |1548|
+|004B2DC7|PANEL.exe   |adscnnct.pas|TAdsConnection|GetAdsConnection          |915 |
+|77CD2280|ntdll.dll   |            |              |RtlLeaveCriticalSection   |    |
+|004B32AC|PANEL.exe   |adscnnct.pas|TAdsConnection|SetConnected              |1105|
+|774B0BBD|user32.dll  |            |              |OffsetRect                |    |
+|004CB4C8|PANEL.exe   |untLogin.pas|TfrmLogin     |InitializeForm            |72  |
+|004CB488|PANEL.exe   |untLogin.pas|TfrmLogin     |InitializeForm            |59  |
+|004CB480|PANEL.exe   |untLogin.pas|TfrmLogin     |FormCreate                |55  |
+|77CF15C1|ntdll.dll   |            |              |RtlSetBits                |    |
+|77CF15B0|ntdll.dll   |            |              |RtlFindClearBitsAndSet    |    |
+|77CF158E|ntdll.dll   |            |              |RtlFindClearBitsAndSet    |    |
+|77CE29D3|ntdll.dll   |            |              |RtlReleaseSRWLockExclusive|    |
+|004CC24B|PANEL.exe   |PANEL.dpr   |              |                          |15  |
+|75843388|kernel32.dll|            |              |GetEnvironmentVariableA   |    |
+-----------------------------------------------------------------------------------
+
+
+
